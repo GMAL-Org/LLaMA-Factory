@@ -620,5 +620,11 @@
     "columns": {
       "prompt": "text"
     }
+  },
+  "HINDAWI-v1": {
+    "hf_hub_url": "Ali-C137/Hindawi-Books-dataset",
+    "columns": {
+      "prompt": "ChapterText"
+    }
   }
 }
