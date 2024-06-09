@@ -2,22 +2,22 @@ import os
 import subprocess
 import pkg_resources
 
-def install_or_update_package(package_name, version_spec):
-    try:
-        installed_version = pkg_resources.get_distribution(package_name).version
-        print(f"{package_name} is already installed with version {installed_version}")
-        if not pkg_resources.parse_version(installed_version) in pkg_resources.Requirement.parse(f"{package_name}{version_spec}"):
-            print(f"Updating {package_name} to meet the version specifier {version_spec}")
-            subprocess.check_call(["pip", "install", f"{package_name}{version_spec}"])
-    except pkg_resources.DistributionNotFound:
-        print(f"{package_name} is not installed. Installing version {version_spec}")
-        subprocess.check_call(["pip", "install", f"{package_name}{version_spec}"])
+# def install_or_update_package(package_name, version_spec):
+#     try:
+#         installed_version = pkg_resources.get_distribution(package_name).version
+#         print(f"{package_name} is already installed with version {installed_version}")
+#         if not pkg_resources.parse_version(installed_version) in pkg_resources.Requirement.parse(f"{package_name}{version_spec}"):
+#             print(f"Updating {package_name} to meet the version specifier {version_spec}")
+#             subprocess.check_call(["pip", "install", f"{package_name}{version_spec}"])
+#     except pkg_resources.DistributionNotFound:
+#         print(f"{package_name} is not installed. Installing version {version_spec}")
+#         subprocess.check_call(["pip", "install", f"{package_name}{version_spec}"])
 
-# Check and install/update transformers
-install_or_update_package("transformers", "==4.41.0")
+# # Check and install/update transformers
+# install_or_update_package("transformers", "==4.41.0")
 
-# Check and install/update peft
-install_or_update_package("peft", ">=0.10.0")
+# # Check and install/update peft
+# install_or_update_package("peft", ">=0.10.0")
 
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from peft import PeftModel
