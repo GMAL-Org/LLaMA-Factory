@@ -39,8 +39,11 @@ BASE_MODEL = args.base_model
 TOKEN = args.token
 ORG = args.org
 TORCH_DTYPE = args.torch_dtype
-ADAPTER_NAME = ADAPTER_PATH.replace('/', '-').replace('.', '') + "-adapter"
-MODEL_NAME = ADAPTER_PATH.replace('/', '-').replace('.', '') + "-model"
+
+CLEAN_PATH = ADAPTER_PATH.replace('saves/', '')
+
+ADAPTER_NAME = CLEAN_PATH + "-adapter"
+MODEL_NAME = CLEAN_PATH + "-model"
 
 # Load the tokenizer and base model
 tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL)
