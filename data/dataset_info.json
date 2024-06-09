@@ -546,5 +546,79 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "AbderrahmanSkiredj1-wiki-ary": {
+    "hf_hub_url": "AbderrahmanSkiredj1/moroccan_darija_wikipedia_dataset",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "9esa": {
+    "hf_hub_url": "Ali-C137/Darija-Stories-Dataset",
+    "columns": {
+      "prompt": "Text"
+    }
+  },
+  "Wiki-Ary": {
+    "hf_hub_url": "wikimedia/wikipedia",
+    "subset": "20231101.ary",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "Wiki-Ar": {
+    "hf_hub_url": "wikimedia/wikipedia",
+    "subset": "20231101.ar",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "Wiki-Arz": {
+    "hf_hub_url": "wikimedia/wikipedia",
+    "subset": "20231101.arz",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "xP3x-arb-arab": {
+    "hf_hub_url": "CohereForAI/xP3x",
+    "subset": "arb_Arab",
+    "columns": {
+      "prompt": "inputs"
+    }
+  },
+  "CulturaX-ar": {
+    "hf_hub_url": "uonlp/CulturaX",
+    "subset": "ar",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "CulturaX-arz": {
+    "hf_hub_url": "uonlp/CulturaX",
+    "subset": "arz",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "CulturaY-ar": {
+    "hf_hub_url": "ontocord/CulturaY",
+    "subset": "ar",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "Arabic_Aya-translated_soda": {
+    "hf_hub_url": "2A2I/Arabic_Aya",
+    "subset": "CohereForAI-aya_collection-translated_soda",
+    "columns": {
+      "prompt": "targets"
+    }
+  },
+  "JAWDA": {
+    "hf_hub_url": "2A2I-R/JAWDA-dataset-cleaned",
+    "columns": {
+      "prompt": "text"
+    }
   }
 }
