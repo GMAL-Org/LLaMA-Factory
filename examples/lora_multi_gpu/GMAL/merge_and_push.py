@@ -45,6 +45,8 @@ CLEAN_PATH = ADAPTER_PATH.replace('saves/', '')
 ADAPTER_NAME = CLEAN_PATH + "-adapter"
 MODEL_NAME = CLEAN_PATH + "-model"
 
+print(f"########## MERGE & PUSH-TO-HUB STARTING ##########\n")
+
 # Load the tokenizer and base model
 tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL)
 base_model = AutoModelForCausalLM.from_pretrained(BASE_MODEL, torch_dtype=getattr(torch, TORCH_DTYPE))
@@ -58,4 +60,4 @@ model = model.merge_and_unload()
 model.push_to_hub(f"{ORG}/{MODEL_NAME}", private=True, token=TOKEN)
 tokenizer.push_to_hub(f"{ORG}/{MODEL_NAME}", private=True, token=TOKEN)
 
-print(f"########## ALL FINISHED ##########\n{ADAPTER_NAME} Adapter and {MODEL_NAME} Model are successfully pushed to the Hub under username/org : {ORG}\n")
+print(f"########## MERGE & PUSH-TO-HUB FINISHED ##########\n{ADAPTER_NAME} Adapter and {MODEL_NAME} Model are successfully pushed to the Hub under username/org : {ORG}\n")
