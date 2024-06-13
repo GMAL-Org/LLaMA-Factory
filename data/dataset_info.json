@@ -626,5 +626,17 @@
     "columns": {
       "prompt": "ChapterText"
     }
+  },
+  "AOT-1BT": {
+    "hf_hub_url": "2A2I-R/AOT-1BT",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "AOT-2BT": {
+    "hf_hub_url": "2A2I-R/AOT-2BT",
+    "columns": {
+      "prompt": "text"
+    }
   }
 }
