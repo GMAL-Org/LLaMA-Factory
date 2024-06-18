@@ -691,6 +691,18 @@
       "prompt": "text"
     }
   },
+  "AOT-100MT": {
+    "hf_hub_url": "2A2I-R/AOT-100MT",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "AOT-200MT": {
+    "hf_hub_url": "2A2I-R/AOT-200MT",
+    "columns": {
+      "prompt": "text"
+    }
+  },
   "AOT-1BT": {
     "hf_hub_url": "2A2I-R/AOT-1BT",
     "columns": {
