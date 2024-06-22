@@ -655,6 +655,18 @@
       "prompt": "text"
     }
   },
+  "AraWiki-100M": {
+    "hf_hub_url": "Ali-C137/AraWiki-100M",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "AraWiki-200M": {
+    "hf_hub_url": "Ali-C137/AraWiki-200M",
+    "columns": {
+      "prompt": "text"
+    }
+  },
   "HINDAWI-v1": {
     "hf_hub_url": "Ali-C137/Hindawi-Books-dataset",
     "columns": {
