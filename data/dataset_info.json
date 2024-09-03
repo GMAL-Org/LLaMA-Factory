@@ -558,7 +558,7 @@
     }
   },
   "9esa": {
-    "hf_hub_url": "Ali-C137/Darija-Stories-Dataset",
+    "hf_hub_url": "alielfilali01/Darija-Stories-Dataset",
     "columns": {
       "prompt": "Text"
     }
@@ -626,79 +626,79 @@
     }
   },
   "AraWiki-500k": {
-    "hf_hub_url": "Ali-C137/AraWiki-500k",
+    "hf_hub_url": "alielfilali01/AraWiki-500k",
     "columns": {
       "prompt": "text"
     }
   },
   "AraWiki-1M": {
-    "hf_hub_url": "Ali-C137/AraWiki-1M",
+    "hf_hub_url": "alielfilali01/AraWiki-1M",
     "columns": {
       "prompt": "text"
     }
   },
   "AraWiki-2M": {
-    "hf_hub_url": "Ali-C137/AraWiki-2M",
+    "hf_hub_url": "alielfilali01/AraWiki-2M",
     "columns": {
       "prompt": "text"
     }
   },
   "AraWiki-5M": {
-    "hf_hub_url": "Ali-C137/AraWiki-5M",
+    "hf_hub_url": "alielfilali01/AraWiki-5M",
     "columns": {
       "prompt": "text"
     }
   },
   "AraWiki-10M": {
-    "hf_hub_url": "Ali-C137/AraWiki-10M",
+    "hf_hub_url": "alielfilali01/AraWiki-10M",
     "columns": {
       "prompt": "text"
     }
   },
   "AraWiki-100M": {
-    "hf_hub_url": "Ali-C137/AraWiki-100M",
+    "hf_hub_url": "alielfilali01/AraWiki-100M",
     "columns": {
       "prompt": "text"
     }
   },
   "AraWiki-200M": {
-    "hf_hub_url": "Ali-C137/AraWiki-200M",
+    "hf_hub_url": "alielfilali01/AraWiki-200M",
     "columns": {
       "prompt": "text"
     }
   },
   "HINDAWI-v1": {
-    "hf_hub_url": "Ali-C137/Hindawi-Books-dataset",
+    "hf_hub_url": "alielfilali01/Hindawi-Books-dataset",
     "columns": {
       "prompt": "ChapterText"
     }
   },
   "Hindawi-500k": {
-    "hf_hub_url": "Ali-C137/Hindawi-500k",
+    "hf_hub_url": "alielfilali01/Hindawi-500k",
     "columns": {
       "prompt": "text"
     }
   },
   "Hindawi-1M": {
-    "hf_hub_url": "Ali-C137/Hindawi-1M",
+    "hf_hub_url": "alielfilali01/Hindawi-1M",
     "columns": {
       "prompt": "text"
     }
   },
   "Hindawi-2M": {
-    "hf_hub_url": "Ali-C137/Hindawi-2M",
+    "hf_hub_url": "alielfilali01/Hindawi-2M",
     "columns": {
       "prompt": "text"
     }
   },
   "Hindawi-5M": {
-    "hf_hub_url": "Ali-C137/Hindawi-5M",
+    "hf_hub_url": "alielfilali01/Hindawi-5M",
     "columns": {
       "prompt": "text"
     }
   },
   "Hindawi-10M": {
-    "hf_hub_url": "Ali-C137/Hindawi-10M",
+    "hf_hub_url": "alielfilali01/Hindawi-10M",
     "columns": {
       "prompt": "text"
     }
