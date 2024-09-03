@@ -726,5 +726,11 @@
     "columns": {
       "prompt": "text"
     }
+  },
+  "AraWeb24": {
+    "hf_hub_url": "lightonai/ArabicWeb24",
+    "columns": {
+      "prompt": "text"
+    }
   }
 }
