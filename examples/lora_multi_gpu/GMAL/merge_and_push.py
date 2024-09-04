@@ -49,7 +49,7 @@ print(f"########## MERGE & PUSH-TO-HUB STARTING ##########\n")
 
 # Load the tokenizer and base model
 tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL)
-base_model = AutoModelForCausalLM.from_pretrained(BASE_MODEL, torch_dtype=getattr(torch, TORCH_DTYPE))
+base_model = AutoModelForCausalLM.from_pretrained(BASE_MODEL, torch_dtype=getattr(torch, TORCH_DTYPE), trust_remote_code=True)
 
 # Load the adapter and push it to the hub
 model = PeftModel.from_pretrained(base_model, ADAPTER_PATH)
